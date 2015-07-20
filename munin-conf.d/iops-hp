@@ -1,0 +1,142 @@
+[UNC;PSI;NOC;Infraestructura;Storage;HP]
+    update no
+    diskstats_iops.update no
+    diskstats_iops.graph_title IOPS Lecturas
+    diskstats_iops.graph_category IOPS
+    diskstats_iops.graph_args --base 1000
+    diskstats_iops.graph_vlabel IOs/sec
+    diskstats_iops.graph_order \
+          rogelio-bigbrother-logs=UNC;PSI;NOC;Infraestructura;Monitoreo;Bigbrother;bigbrother.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          rogelio-databases-databases=UNC;PSI;NOC;Servicios;BDs;databases-3.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          rogelio-databases-ifx1-respaldos=UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdf.rdio \
+          rogelio-databases-ifx1-data2=UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          rogelio-databases-ifx2-respaldos=UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdf.rdio \
+          rogelio-databases-ifx2-data2=UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          rogelio-databases-ifx3-data=UNC;PSI;NOC;Servicios;BDs;databases-ifx3.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          rogelio-databases-pg-databases=UNC;PSI;NOC;Servicios;BDs;databases-pg.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          rogelio-dtc-sites=UNC;PSI;NOC;Servicios;DTC;dtc.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          rogelio-dtc2-sites=UNC;PSI;NOC;Servicios;DTC;dtc2.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          rogelio-vcampus-sites=UNC;PSI;NOC;Servicios;DTC;moodle-1.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          rogelio-campus2-sites=UNC;PSI;NOC;Servicios;DTC;moodle-2.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          rogelio-campus-sites_part1=UNC;PSI;NOC;Servicios;Bokeh;oca-bokeh.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          rogelio-pg-amanda-databases=UNC;PSI;NOC;Servicios;Backup;pg-amanda.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          rogelio-psyche-av-cron-srv=UNC;Psyche;psyche-av-cron-2.psi.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          rogelio-titan-mails=UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          rogelio-titan-logs=UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdd.rdio 
+ 
+    diskstats_iops_1.update no
+    diskstats_iops_1.graph_title IOPS Escrituras
+    diskstats_iops_1.graph_category IOPS
+    diskstats_iops_1.graph_args --base 1000
+    diskstats_iops_1.graph_vlabel IOs/sec
+    diskstats_iops_1.graph_order \
+          rogelio-bigbrother-logs=UNC;PSI;NOC;Infraestructura;Monitoreo;Bigbrother;bigbrother.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          rogelio-databases-databases=UNC;PSI;NOC;Servicios;BDs;databases-3.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          rogelio-databases-ifx1-respaldos=UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdf.wrio \
+          rogelio-databases-ifx1-data2=UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          rogelio-databases-ifx2-respaldos=UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdf.wrio \
+          rogelio-databases-ifx2-data2=UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          rogelio-databases-ifx3-data=UNC;PSI;NOC;Servicios;BDs;databases-ifx3.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          rogelio-databases-pg-databases=UNC;PSI;NOC;Servicios;BDs;databases-pg.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          rogelio-dtc-sites=UNC;PSI;NOC;Servicios;DTC;dtc.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          rogelio-dtc2-sites=UNC;PSI;NOC;Servicios;DTC;dtc2.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          rogelio-vcampus-sites=UNC;PSI;NOC;Servicios;DTC;moodle-1.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          rogelio-campus2-sites=UNC;PSI;NOC;Servicios;DTC;moodle-2.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          rogelio-campus-sites_part1=UNC;PSI;NOC;Servicios;Bokeh;oca-bokeh.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          rogelio-pg-amanda-databases=UNC;PSI;NOC;Servicios;Backup;pg-amanda.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          rogelio-psyche-av-cron-srv=UNC;Psyche;psyche-av-cron-2.psi.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          rogelio-titan-mails=UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          rogelio-titan-logs=UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdd.wrio 
+ 
+    diskstats_iops_2.update no
+    diskstats_iops_2.graph_title IOPS Lecturas Total
+    diskstats_iops_2.graph_category IOPS
+    diskstats_iops_2.graph_args --base 1000
+    diskstats_iops_2.graph_vlabel IOs/sec
+    diskstats_iops_2.total_iops_1.label IOPS Lecturas Total
+    diskstats_iops_2.total_iops_1.sum \
+          UNC;PSI;NOC;Infraestructura;Monitoreo;Bigbrother;bigbrother.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-3.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdf.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdf.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx3.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-pg.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;DTC;dtc.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;DTC;dtc2.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-1.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-2.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;Bokeh;oca-bokeh.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;Backup;pg-amanda.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;Psyche;psyche-av-cron-2.psi.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdd.rdio 
+ 
+    diskstats_iops_3.update no
+    diskstats_iops_3.graph_title IOPS Escrituras Total
+    diskstats_iops_3.graph_category IOPS
+    diskstats_iops_3.graph_args --base 1000
+    diskstats_iops_3.graph_vlabel IOs/sec
+    diskstats_iops_3.total_iops_2.label IOPS Escrituras Total
+    diskstats_iops_3.total_iops_2.sum \
+          UNC;PSI;NOC;Infraestructura;Monitoreo;Bigbrother;bigbrother.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-3.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdf.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdf.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx3.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-pg.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;DTC;dtc.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;DTC;dtc2.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-1.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-2.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;Bokeh;oca-bokeh.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;Backup;pg-amanda.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;Psyche;psyche-av-cron-2.psi.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdd.wrio 
+ 
+    diskstats_iops_4.update no
+    diskstats_iops_4.graph_title IOPS Total
+    diskstats_iops_4.graph_category IOPS
+    diskstats_iops_4.graph_args --base 1000
+    diskstats_iops_4.graph_vlabel IOs/sec
+    diskstats_iops_4.total_iops_3.label IOPS Total
+    diskstats_iops_4.total_iops_3.sum \
+          UNC;PSI;NOC;Infraestructura;Monitoreo;Bigbrother;bigbrother.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Infraestructura;Monitoreo;Bigbrother;bigbrother.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-3.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-3.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdf.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdf.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx1.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdf.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdf.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx2.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx3.psi.unc.edu.ar:diskstats_iops.xvdh.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-ifx3.psi.unc.edu.ar:diskstats_iops.xvdh.rdio \
+          UNC;PSI;NOC;Servicios;BDs;databases-pg.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;BDs;databases-pg.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;DTC;dtc.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;DTC;dtc.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;DTC;dtc2.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;DTC;dtc2.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-1.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-1.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-2.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;DTC;moodle-2.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;Bokeh;oca-bokeh.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;Bokeh;oca-bokeh.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;PSI;NOC;Servicios;Backup;pg-amanda.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;Backup;pg-amanda.psi.unc.edu.ar:diskstats_iops.xvdd.rdio \
+          UNC;Psyche;psyche-av-cron-2.psi.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;Psyche;psyche-av-cron-2.psi.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdc.wrio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdc.rdio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdd.wrio \
+          UNC;PSI;NOC;Servicios;Correo;vtitan.psi.unc.edu.ar:diskstats_iops.xvdd.rdio 
+ 
